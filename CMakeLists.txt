@@ -47,9 +47,5 @@ target_sources(miniroot PRIVATE
 	 "miniroot.cpp"
 )
 
-# Set build mode
-set_property(TARGET miniroot PROPERTY DCMAKE_BUILD_TYPE Release)
-
-
 
 # TODO: Add tests and install targets if needed.
